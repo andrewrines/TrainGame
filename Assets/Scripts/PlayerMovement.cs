@@ -8,8 +8,11 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-	void Update ()
+    void Update()
     {
-        
-	}
+        if (Input.GetKey(KeyCode.A))
+            transform.Translate(-transform.right * Time.deltaTime * 1.5f);
+        else if (Input.GetKey(KeyCode.D))
+            transform.Translate(transform.right * Time.deltaTime * 1.5f);
+    }
 }
