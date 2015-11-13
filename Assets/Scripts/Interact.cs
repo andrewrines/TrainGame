@@ -3,12 +3,28 @@ using System.Collections;
 
 public class Interact : MonoBehaviour
 {
-    private GameObject[] Doors;
     private GameObject talkingHead;
+
+    Ray playerRay;
+
+
     void Start()
     {
-        Doors = GameObject.FindGameObjectsWithTag("Door");
         talkingHead = GameObject.FindGameObjectWithTag("GUI");
+    }
+
+    void Update()
+    {
+        playerRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        if (Physics.Raycast(playerRay, out hit))
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                print(hit.transform.gameObject.name);
+            }
+        }
     }
 
 	void OnTriggerEnter(Collider c)
@@ -22,37 +38,25 @@ public class Interact : MonoBehaviour
                 print("something should be happening");
             }
         }
-
-        if (c.tag == "Door")
+        else if (c.tag == "FlapperDoor" || c.tag == "StudentDoor")
         {
             print("Press space to go inside the room.");
-            //if (Input.GetKeyDown(KeyCode.Space))
-            //{
-            //    switch (Doors)
-            //    {
-            //        case Door.Flapper:
-            //            Application.LoadLevel("Cabin1");
-            //            break;
-            //        case Door.MedStudent:
-            //            Application.LoadLevel("Cabin2");
-            //            break;
-            //        default:
-            //            print("I can't go in there.");
-            //            break;
-            //    }
-            //}
         }
     }
 
     void OnTriggerStay(Collider c)
     {
-        if (c.tag == "Character")
+        if (c.tag == "Character" && Input.GetKeyDown(KeyCode.Space))
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                talkingHead.GetComponent<GUIElement>().enabled = true;
-                print("something should be happening");
-            }
+            // pull up the character gui
+        }
+        else if (c.tag == "StudentDoor" && Input.GetKeyDown(KeyCode.Space))
+        {
+            Application.LoadLevel("Cabin1");
+        }
+        else if (c.tag == "SleeperCar1")
+        {
+            
         }
     }
 }
