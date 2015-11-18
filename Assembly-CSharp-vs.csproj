@@ -46,8 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Archived\Interact.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+<<<<<<< HEAD
+     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
+=======
      <Compile Include="Assets\Scripts\Interaction.cs" />
+>>>>>>> 97073c00fa771e6f47be2334e43a9ab72357e8ae
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SceneTransition.cs" />
  <Reference Include="UnityEngine.UI">

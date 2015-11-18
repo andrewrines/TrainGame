@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+C:\Users\dane.wheaton\Desktop\TrainGame\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+=======
 C:\Users\Andrew\TrainGame\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Andrew\TrainGame\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\Andrew\TrainGame\Temp\bin\Debug\UnityEditor.dll
@@ -22,3 +25,4 @@ C:\Users\Andrew\TrainGame\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\Andrew\TrainGame\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
 C:\Users\Andrew\TrainGame\obj\Debug\Assembly-CSharp.dll
 C:\Users\Andrew\TrainGame\obj\Debug\Assembly-CSharp.pdb
+>>>>>>> 97073c00fa771e6f47be2334e43a9ab72357e8ae
