@@ -16,5 +16,6 @@ public class PlayerMovement : MonoBehaviour
 			transform.Translate(-transform.right * Time.deltaTime * moveSpeed);
 		else if (Input.GetKey(KeyCode.D))
 			transform.Translate(transform.right * Time.deltaTime * moveSpeed);
+        DontDestroyOnLoad(gameObject);
 	}
 }

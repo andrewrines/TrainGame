@@ -1,21 +1,40 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour 
 {
-	Vector3 SpawnPosition;
+	public static GameManager instance; 
 
 	// Use this for initialization
-	void Start () 
+	void Awake () 
 	{
-		SpawnPosition = GameObject.FindGameObjectWithTag("Spawn").transform.position;
-		Instantiate (Resources.Load("Art/Player"), SpawnPosition, Quaternion.identity);
+
+		if (instance == null) {
+			instance = this;
+		} else if (instance != this) 
+		{
+			Destroy(gameObject);
+		}
+
+		DontDestroyOnLoad (gameObject);
+
+
 
 	}
+    void OnLevelWasLoaded (int Level)
+    {
+        switch (Level)
+        {
+            case 0:
+                GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = new Vector3(1, 0, 0);
+                break;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		
+
 	}
 }
