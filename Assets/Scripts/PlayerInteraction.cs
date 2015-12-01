@@ -19,4 +19,31 @@ public class PlayerInteraction : MonoBehaviour
             }
         }
     }
+
+
+
+    // UUUUUUGGGGGGLLLLYYYYYYY
+    void OnTriggerStay(Collider c)
+    {
+        if (c.tag == "DoorToStaffSleeperCarFromOffice")
+        {
+            Application.LoadLevel("Office");
+        }
+        else if (c.tag == "DoorToOfficeFromStaffSleeperCar")
+        {
+            Application.LoadLevel("StaffSleeperCar");
+        }
+        else if (c.tag == "")
+        {
+
+        }
+        else if (c.tag == "")
+        {
+
+        }
+        else if (c.tag == "")
+        {
+
+        }
+    }
 }
