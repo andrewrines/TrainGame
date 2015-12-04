@@ -6,11 +6,18 @@ public class GameManager : MonoBehaviour
 {
     enum PreviousLocation { Office, StaffSleeperCar, Kitchen, DiningCar, SleeperCar1, SleeperCar2, SleeperCar3, LuggageCar, Caboose };
 
-    PreviousLocation SpawnPoint;
+    PreviousLocation PrevLoc;
+    
+	public GameManager ManagerInstance = null;
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        if (ManagerInstance == null)
+            ManagerInstance = this;
+        else if (ManagerInstance != this)
+			Destroy(gameObject);
+		
+		DontDestroyOnLoad(gameObject);
     }
 
     void OnLevelWasLoaded (int Level)
@@ -18,11 +25,11 @@ public class GameManager : MonoBehaviour
         switch (Level)
         {
             case 0:
-                if (SpawnPoint == PreviousLocation.SleeperCar1)
+                if (PrevLoc == PreviousLocation.SleeperCar1)
                 {
                     GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = new Vector3(0, 0, 0);
                 }
-                else if (SpawnPoint == PreviousLocation.SleeperCar2)
+                else if (PrevLoc == PreviousLocation.SleeperCar2)
                 {
                     GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = new Vector3(0, 0, 0);
                 }
