@@ -1,22 +1,99 @@
-Initialize engine version: 5.1.2f1 (afd2369b692a)
+Initialize engine version: 5.2.1f1 (44735ea161b3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro K2000 (ID=0xffe)
-    Vendor:   NVIDIA
-    VRAM:     1974 MB
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\dane.wheaton\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.044 seconds
-desktop: 1920x1200 59Hz; virtual: 3840x1200 at 0,0
+Platform assembly: C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.055 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Dane\Desktop\TrainGame\buildberg_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: b244 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.118499 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 230.
+Total: 0.295781 ms (FindLiveObjects: 0.024726 ms CreateObjectMapping: 0.017728 ms MarkObjects: 0.243529 ms  DeleteObjects: 0.008864 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.095172 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 230.
+Total: 0.328438 ms (FindLiveObjects: 0.023793 ms CreateObjectMapping: 0.018194 ms MarkObjects: 0.273854 ms  DeleteObjects: 0.011663 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.088641 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 230.
+Total: 0.220669 ms (FindLiveObjects: 0.017261 ms CreateObjectMapping: 0.013062 ms MarkObjects: 0.181014 ms  DeleteObjects: 0.008397 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.197343 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.601826 ms (FindLiveObjects: 0.042920 ms CreateObjectMapping: 0.031724 ms MarkObjects: 0.506653 ms  DeleteObjects: 0.019127 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.188478 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 249.
+Total: 0.318641 ms (FindLiveObjects: 0.026125 ms CreateObjectMapping: 0.013995 ms MarkObjects: 0.264057 ms  DeleteObjects: 0.013995 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.095172 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 213.
+Total: 0.256592 ms (FindLiveObjects: 0.018661 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.212738 ms  DeleteObjects: 0.014462 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.058783 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.592962 ms (FindLiveObjects: 0.081643 ms CreateObjectMapping: 0.017728 ms MarkObjects: 0.484726 ms  DeleteObjects: 0.008397 ms)
+
+Cabin2Door
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cabin2Door
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cabin2Door
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cabin2Door
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cabin2Door
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cabin2Door
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cabin2Door
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Cabin2Door
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
