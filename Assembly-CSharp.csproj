@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\NPCDialogue\Clifford.cs" />
      <Compile Include="Assets\Scripts\NPCDialogue\Hector.cs" />
      <Compile Include="Assets\Scripts\PlayerBehaviors\DoorInteraction.cs" />
+     <Compile Include="Assets\Scripts\PlayerBehaviors\DoorsBetweenCars.cs" />
      <Compile Include="Assets\Scripts\PlayerBehaviors\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerBehaviors\PointAndClickInteraction.cs" />
      <Compile Include="Assets\Scripts\Props\Newspaper.cs" />
